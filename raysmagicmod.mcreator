@@ -1,0 +1,41 @@
+{
+  "mod_elements": [
+    {
+      "name": "UraniumOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.raysmagicmod.uranium_ore": "Uranium Ore"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "raysmagicmod",
+    "modName": "RaysMagicMod",
+    "version": "1.0.0",
+    "author": "gageh, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.raysmagicmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

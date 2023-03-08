@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "raysmagicmod:blocks/uraniteore",
+    "up": "raysmagicmod:blocks/uraniteore",
+    "north": "raysmagicmod:blocks/uraniteore",
+    "east": "raysmagicmod:blocks/uraniteore",
+    "south": "raysmagicmod:blocks/uraniteore",
+    "west": "raysmagicmod:blocks/uraniteore",
+    "particle": "raysmagicmod:blocks/uraniteore"
+  }
+}

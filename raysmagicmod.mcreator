@@ -1,20 +1,26 @@
 {
   "mod_elements": [
     {
-      "name": "UraniumOre",
-      "type": "block",
-      "sortid": 1,
+      "name": "StartupProcedure",
+      "type": "procedure",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "uranium_ore"
+      "registry_name": "startup_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "block.raysmagicmod.uranium_ore": "Uranium Ore"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",

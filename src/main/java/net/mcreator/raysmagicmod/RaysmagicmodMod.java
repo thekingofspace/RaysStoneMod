@@ -26,10 +26,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.raysmagicmod.init.RaysmagicmodModItems;
-import net.mcreator.raysmagicmod.init.RaysmagicmodModFeatures;
-import net.mcreator.raysmagicmod.init.RaysmagicmodModBlocks;
-
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -46,10 +42,6 @@ public class RaysmagicmodMod {
 	public RaysmagicmodMod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-		RaysmagicmodModBlocks.REGISTRY.register(bus);
-		RaysmagicmodModItems.REGISTRY.register(bus);
-
-		RaysmagicmodModFeatures.REGISTRY.register(bus);
 
 	}
 
